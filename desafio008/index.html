@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Cores</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .pageText{
+            background-color: darkgray;
+            color: black;
+        }
+    </style>
+</head>
+<body style="background-color: grey;">
+    <div class="mainDiv">
+        <div class="pageText">
+            <h1>Página Cinza</h1>
+            <p class="grayParagraph">Você está na página Cinza, esse é o salão pelo qual se pode acessar todas as páginas coloridas</p>
+            <p class="grayParagraph">Clique nos ícones coloridos abaixo p para acessar as outras páginas</p>
+        </div>
+        <div class="pageImg"><img src="assets/imagens/corridor-500.jpg" alt="corredor"></div>
+    </div>
+    
+    <div class="blockIconColors">
+        <div class="blockIcon">
+            <a href="blue.html"><img src="assets/imagens/blue.png" alt="seguir para azul" width="100px" class="iconColor"></a>
+            <p class="iconColor">Clique para<br>acessar a Sala Azul</p>
+        </div>
+
+        <div class="blockIcon"> 
+            <a href="green.html" rel="next"><img src="assets/imagens/green.png" alt="seguir para verde" width="100px" class="iconColor"></a>
+            <p class="iconColor">Clique para<br>acessar a Sala Verde</p>
+        </div>
+
+        <div class="blockIcon">
+            <a href="red.html" rel="next"><img src="assets/imagens/red.png" alt="seguir para vermelho" width="100px" class="iconColor"></a>
+            <p class="iconColor" rel="next">Clique para<br>acessar a Sala Vermelha</p>
+        </div>
+
+        <div class="blockIcon">
+            <a href="yellow.html" rel="next"><img src="assets/imagens/yellow.png" alt="seguir para amarelo" width="100px"></a>
+            <p class="">Clique para<br>acessar a Sala Amarela</p>
+        </div>
+    </div>
+
+</body>
+</html>

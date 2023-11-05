@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Sociais</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-size: 16px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 30px;
+            background-color: #151515;
+        }
+
+        .floater{
+            float: left;
+        }
+
+        #presentationText{
+            margin-left: 30px;
+        }
+
+        #majorBlock::after{
+            content: "";
+            display: table;
+            clear: both; /* Isso garante que nada flutue à esquerda ou à direita das colunas */
+        }
+
+        .shortcutSocialMedia{
+            padding-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        #galoCoffePhoto{
+            margin-right: 20px;
+        }
+
+        #social_media{
+            margin-right: 40px;
+        }
+
+        a{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="majorBlock">
+        <div id="picture" class="floater">
+            <img src="midia/fotos/perfil_semFundo_400.png" alt="foto de perfil" width="300">
+        </div>
+        <div id="presentationText" class="floater">
+            <h1>Breno Gabriel de Souza Coelho</h1>
+            <h2>Quem sou eu?</h2>
+            <p>Estudante da Engenharia de Computação na UNIVASF, Brasil, campus Juazeiro. Participa de um <br>
+                projeto no HU UNIVASF onde desenvolve um Painel de Gestão a Vista usando Django Back-end desde <br>
+                maio de 2022, tendo feito um breve pronunciamento sobre esse processo durante o evento Lócus de <br>
+                Inovação, em Agosto de 2022. Com excelente conhecimento de Inglês e boa capacidade comunicativa, <br>
+                é um entusiasta de matemática e ciências em geral, tendo ensinado Geometria Analítica, como <br>
+                na UNIVASF, e Física, como professor de um projeto voluntário, durante a pandemia de COVID-19.
+            </p>
+        </div>
+    </div>
+
+    <div class="majorBlock">
+        <div id="social_media" class="floater">
+            <h2>Contato</h2>
+            <ul>
+                <li><a target="_blank" href="https://instagram.com/_bgab?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><img class="shortcutSocialMedia" src="social_media_icons/instagram-50.png" alt="instagram_icon">Instagram</a></a></li>
+                <li><a target="_blank" href="http://lattes.cnpq.br/4100133580429392"><img class="shortcutSocialMedia" src="social_media_icons/lattes-50.png" alt="lattes_icon">Curriculo Lattes</a>
+                </li>
+                <li><a target="_blank" href="https://github.com/CodeByBreno"><img class="shortcutSocialMedia" src="social_media_icons/github-50.png" alt="github_icon">GitHub</a></li>
+                <li><img class="shortcutSocialMedia" src="social_media_icons/phone-50.png" alt="phone_icon">Telefone: (87) 98812-9981</a></li>
+                <li><img class="shortcutSocialMedia" src="social_media_icons/gmail-50.png" alt="gmail_icon">Gmail: breno.gabriel.souza.coelho@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Seja bem vindo!</h2>
+            <p>Tome um café, escuta uma musiquinha</p>
+            <img src="midia/fotos/cafe-200.jpg" alt="galo_cafe" id="galoCoffePhoto">
+            <audio src="midia/audio/jazzMorning.mp3" autoplay controls></audio>
+        </div>
+    </div>
+
+</body>
+</html>

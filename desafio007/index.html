@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Imagem Flexível</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="flexContainer"> <!-- Esse flex container para centralizar tudo é por conta do chatGPT -->
+        <div id="mainBlock">
+            <div id="presentationTitle">
+                <h1>Veja as fotos vencedoras do Concurso 2023!</h1>
+                <h2>Acesse a foto original postada no Pexels clicando na imagem</h2>
+            </div>
+            <div id="presentationText">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veritatis, eos debitis reiciendis, officia nobis illum nisi vero delectus architecto sit velit dignissimos culpa aut provident quia repudiandae nesciunt consectetur.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ratione magnam dolor voluptas nihil perferendis, ducimus incidunt distinctio ex voluptatibus harum eligendi est alias laboriosam excepturi vel cumque officiis iusto!
+                </p>
+            </div>
+        </div>
+        <div id="imagesBlock">
+            <div class="site-img">
+                <a href="https://www.pexels.com/pt-br/foto/telhados-multicoloridos-312997/" target="_blank"><picture>
+                    <source media="(max-width: 950px)" srcset="assets/imagens/houses-500.jpg" type="image/jpg">
+                    <source media="(max-width: 1550px)" srcset="assets/imagens/houses-900.jpg" type="image/jpg">
+                    <img src="assets/imagens/houses-1500.jpg" alt="casas do futuro">
+                </picture></a>
+            </div>
+            <br>
+        
+            <div class="site-img">
+                <a href="https://www.pexels.com/pt-br/foto/cidade-meio-urbano-mulher-jovem-9469740/" target="_blank"><picture>
+                    <source media="(max-width: 950px)" srcset="assets/imagens/girl-500.jpg" type="image/jpg">
+                    <source media="(max-width: 1550px)" srcset="assets/imagens/girl-900.jpg" type="image/jpg">
+                    <img src="assets/imagens/girl-1500.jpg" alt="foto de uma garota">
+                </picture></a>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

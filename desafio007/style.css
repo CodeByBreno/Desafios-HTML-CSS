@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background: url(assets/imagens/city-1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    /*Essa partezinha aqui foi o GPT que sugeriu. Interressante*/
+    display: flex; /* Tornar o corpo do documento um flex container */
+    align-items: center; /* Alinhar verticalmente no centro */
+    justify-content: center; /* Alinhar horizontalmente no centro */
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.class-img{
+    margin: 80px;
+}
+
+#presentationTitle,
+#presentationText{
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#presentationTitle{
+    max-width: 800px;
+}
+
+#presentationText{
+    margin-top: 120px;
+    max-width: 400px;
+}
+
+#imagesBlock{
+    margin: 50px;
+}
+
+#mainBlock{
+    margin: 50px;
+}
+
+#mainBlock::after{
+    content: "";
+    display: table;
+    clear: both; /* Isso garante que nada flutue à esquerda ou à direita das colunas */
+}
